@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record forcecreate="1" id="attribute_event" model="product.attribute">
+            <field name="name">Event</field>
+        </record>
+    </data>
+</odoo>

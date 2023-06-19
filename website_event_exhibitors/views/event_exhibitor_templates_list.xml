@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<!-- Exhibitor Registration: Layout    -->
+<template id="event_exhibitors_register" name="Event Exhibitors Register: Layout">
+    <t t-if="uid" t-call="website_event.layout">
+        <t t-call="website_event_exhibitors.exhibitors_register_main"/>
+    </t>
+    <t t-else="" t-call="web.basic_layout">
+        <t t-call="website_event_exhibitors.exhibitors_register_main"/>
+    </t>
+</template>
+
+
+<!-- Exhibitors Main Display -->
+<template id="exhibitors_register_main" name="Exhibitors: Main Display">
+
+    <div class="o_wesponsor_container container">
+
+        <div class="row">
+<!--            <div t-if="not uid" class="p-3">-->
+<!--                <a href="https://www.50plusbeurs.nl/" class="btn btn-primary">Home</a>-->
+<!--            </div>-->
+            <div class="p-3">
+                <h6><strong><span>Request information </span><span t-field="env.company.display_name"/></strong></h6>
+                <small><span>Would you like to receive more information, the registration form with prices or a tailor-made offer?
+                After registering for our exhibitor database, we will send you the information digitally and will contact you shortly for further
+                coordination of wishes and possibilities.</span></small>
+            </div>
+
+            <!-- Register Form -->
+            <div class="col-12">
+                <div class="container">
+                    <t t-call="website_event_exhibitors.exhibitor_registration_template"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</template>
+
+</odoo>

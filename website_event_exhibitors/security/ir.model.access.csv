@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_event_stand_type_manager,access_event_stand_type,model_event_stand_type,event.group_event_manager,1,1,1,1
+access_event_stand_type_user,access_event_stand_type,model_event_stand_type,,1,0,0,0

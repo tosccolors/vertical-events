@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<!--
+            Sale Report
+-->
+<template id="report_saleorder_document_inherit" inherit_id="sale.report_saleorder_document">
+    <xpath expr="//div[@id='informations']" position="before">
+        <p></p>
+    </xpath>
+    <xpath expr="//div[@id='informations']" position="after">
+        <p></p>
+    </xpath>
+
+    <xpath expr="//div[@name='so_total_summary']" position="before">
+        <p></p>
+    </xpath>
+    <xpath expr="//div[@name='so_total_summary']" position="after">
+        <p></p>
+    </xpath>
+
+    <xpath expr="//span[@t-field='line.product_uom_qty']" position="replace">
+        <span t-esc="round(line.product_uom_qty)"/>
+    </xpath>
+
+    <xpath expr="//span[@t-field='line.discount']" position="replace">
+        <span style="color:blue" t-field="line.discount"/>
+    </xpath>
+
+    <xpath expr="//td[@name='td_amount_untaxed_label']" position="replace">
+        <td name="td_amount_untaxed_label"><strong>Subtotal ex. vat</strong></td>
+    </xpath>
+
+
+
+</template>
+
+</odoo>

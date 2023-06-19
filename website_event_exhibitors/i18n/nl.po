@@ -1,0 +1,524 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_event_exhibitors
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-13 13:26+0000\n"
+"PO-Revision-Date: 2023-06-13 13:26+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.registration_complete_form
+msgid "<b>Start</b>"
+msgstr "<b>Begin</b>"
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.registration_complete_form
+msgid "<br/> <b>End</b>"
+msgstr "<br/> <b>Eind</b>"
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.registration_complete_form
+msgid "<i class=\"fa fa-fw fa-calendar\"/> Add to Google Calendar"
+msgstr "<i class=“fa fa-fw fa-calendar”/> Toevoegen aan Google Calendar"
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.registration_complete_form
+msgid "<i class=\"fa fa-fw fa-calendar\"/> Add to iCal/Outlook"
+msgstr "<i class=“fa fa-fw fa-calendar”/> Toevoegen aan iCal/Outlook"
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.exhibitors_register_main
+msgid ""
+"<small><span>Would you like to receive more information, the registration form with prices or a tailor-made offer?\n"
+"                After registering for our exhibitor database, we will send you the information digitally and will contact you shortly for further\n"
+"                coordination of wishes and possibilities.</span></small>"
+msgstr ""
+"<small><span>Wilt u meer informatie, het formulier met prijzen of een offerte op maat ontvangen?\n"
+" \n"
+"Na het registeren in onze exposanten database sturen we u de informatie digitaal toe en nemen wij zo snel mogelijk\n"
+"contact met u op voor de mogelijkheden..</span></small>"
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.event_sponsor_view_form
+msgid "<span class=\"o_stat_text\"> Lead</span>"
+msgstr "<span class=“o_stat_text”> Lead</span>"
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.exhibitor_registration_template
+msgid ""
+"<span class=\"s_website_form_label_content\">Email</span>\n"
+"                                 <span class=\"s_website_form_mark\"> *</span>"
+msgstr ""
+"<span class=“s_website_form_label_content”>E-mail</span>\n"
+"                                 <span class=“s_website_form_mark”> *</span>"
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.exhibitor_registration_template
+msgid ""
+"<span class=\"s_website_form_label_content\">Mobile</span>\n"
+"                                 <span class=\"s_website_form_mark\"> *</span>"
+msgstr ""
+"<span class=“s_website_form_label_content”>Mobiel</span>\n"
+"                                 <span class=“s_website_form_mark”> *</span>"
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.exhibitor_registration_template
+msgid "<span class=\"s_website_form_label_content\">Phone Number</span>"
+msgstr "<span class=“s_website_form_label_content”>Telefoonnummer</span>"
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.exhibitor_registration_template
+msgid "<span class=\"s_website_form_label_content\">Remarks</span>"
+msgstr "<span class=“s_website_form_label_content”>Opmerkingen</span>"
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.exhibitor_registration_template
+msgid ""
+"<span class=\"s_website_form_label_content\">Stand Depth <small>(mts)</small></span>\n"
+"                                 <span class=\"s_website_form_mark\"> *</span>"
+msgstr ""
+"<span class=“s_website_form_label_content”>Stand Diepte <small>(meter)</small></span>\n"
+"                                 <span class=“s_website_form_mark”> *</span>"
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.exhibitor_registration_template
+msgid "<span class=\"s_website_form_label_content\">Stand Type</span>"
+msgstr "<span class=“s_website_form_label_content”>Standsoort</span>"
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.exhibitor_registration_template
+msgid ""
+"<span class=\"s_website_form_label_content\">Stand Width <small>(mts)</small></span>\n"
+"                                 <span class=\"s_website_form_mark\"> *</span>"
+msgstr ""
+"<span class=“s_website_form_label_content”>Stand Breedte <small>(meter)</small></span>\n"
+"                                 <span class=“s_website_form_mark”> *</span>"
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.exhibitor_registration_template
+msgid ""
+"<span class=\"s_website_form_label_content\">Your Company</span>\n"
+"                                 <span class=\"s_website_form_mark\"> *</span>"
+msgstr ""
+"<span class=“s_website_form_label_content”>Uw Bedrijf</span>\n"
+"                                 <span class=“s_website_form_mark”> *</span>"
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.exhibitor_registration_template
+msgid ""
+"<span class=\"s_website_form_label_content\">Your Name</span>\n"
+"                                 <span class=\"s_website_form_mark\"> *</span>"
+msgstr ""
+"<span class=“s_website_form_label_content”>Uw Naam</span>\n"
+"                                 <span class=“s_website_form_mark”> *</span>"
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.exhibitor_registration_template
+msgid ""
+"<span class=\"s_website_form_label_content\">Your Products or "
+"Services</span>"
+msgstr ""
+"<span class=“s_website_form_label_content”>Uw producten of Diensten</span>"
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.exhibitor_registration_template
+msgid ""
+"<span><small>Note: The minimum stand size is 4 meters wide and 3 meters deep"
+" (4x3).</small></span>"
+msgstr ""
+"<span><small>Let op: De minimum standruimte is 4 meter breed en 3 meter diep"
+" (4x3).</small></span>"
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.exhibitors_register_main
+msgid "<span>Request information </span>"
+msgstr "<span>Informatie aanvragen </span>"
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.report_invoice_document_inherit
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.report_saleorder_document_inherit
+msgid "<strong>Subtotal ex. vat</strong>"
+msgstr "<strong>Subtotaal excl. BTW</strong>"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_crm_lead__brand_id
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_event__brand_id
+msgid "Brand"
+msgstr ""
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.event_sponsor_view_form
+msgid "Confirm"
+msgstr "Bevestigen"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields.selection,name:website_event_exhibitors.selection__event_sponsor__state__confirm
+msgid "Confirmed"
+msgstr "Bevestigd"
+
+#. module: website_event_exhibitors
+#: model:ir.model,name:website_event_exhibitors.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.event_sponsor_view_kanban_inherit
+msgid "Contact:"
+msgstr ""
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_stand_type__create_uid
+msgid "Created by"
+msgstr "Aangemaakt door"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_stand_type__create_date
+msgid "Created on"
+msgstr "Aangemaakt op"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_sponsor__stand_depth
+msgid "Depth (m)"
+msgstr "Diepte (m)"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,help:website_event_exhibitors.field_event_sponsor__stand_depth
+msgid "Depth of Stand in mtrs"
+msgstr "Diepte van de stand in meters"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_crm_lead__display_name
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_event__display_name
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_sponsor__display_name
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_stand_type__display_name
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_type__display_name
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_res_partner__display_name
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_sale_order__display_name
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_sale_order_line__display_name
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_website_event_menu__display_name
+msgid "Display Name"
+msgstr "Schermnaam"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,help:website_event_exhibitors.field_event_type__exhibitor_register_menu
+msgid "Display exhibitors registration on website"
+msgstr "Exposant registratie op website weergeven"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields.selection,name:website_event_exhibitors.selection__event_sponsor__state__draft
+msgid "Draft"
+msgstr "Concept"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields.selection,name:website_event_exhibitors.selection__res_partner__exhibitor_status__draft
+msgid "Draft Exhibitor"
+msgstr "Concept Exposant"
+
+#. module: website_event_exhibitors
+#: model:ir.model,name:website_event_exhibitors.model_event_event
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_crm_lead__event_id
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_sale_order__event_id
+#: model:product.attribute,name:website_event_exhibitors.attribute_event
+msgid "Event"
+msgstr "Evenement"
+
+#. module: website_event_exhibitors
+#: model:ir.model,name:website_event_exhibitors.model_event_sponsor
+msgid "Event Sponsor"
+msgstr "Evenement sponsor"
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.event_stand_type_view_tree
+msgid "Event Stand Type"
+msgstr "Evenement Standsoort"
+
+#. module: website_event_exhibitors
+#: model:ir.model,name:website_event_exhibitors.model_event_type
+msgid "Event Template"
+msgstr "Evenementsjabloon"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,help:website_event_exhibitors.field_crm_lead__event_id
+msgid "Event triggering the rule that created this lead"
+msgstr "Gebeurtenis die de regel activeert die deze lead heeft gemaakt."
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields.selection,name:website_event_exhibitors.selection__res_partner__exhibitor_status__confirmed
+msgid "Exhibitor"
+msgstr "Exposant"
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.event_sponsor_view_tree
+msgid "Exhibitor Company"
+msgstr ""
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_sponsor__email
+msgid "Exhibitor Email"
+msgstr "Exposant E-mail"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_sponsor__mobile
+msgid "Exhibitor Mobile"
+msgstr "Exposant Mobiel"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_sponsor__name
+msgid "Exhibitor Name"
+msgstr "Exposant Naam"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_sponsor__phone
+msgid "Exhibitor Phone"
+msgstr "Exposant Telefoon"
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.event_sponsor_view_form
+msgid "Exhibitor's Products & Services"
+msgstr "Producten & Diensten van de Exposant"
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.event_sponsor_view_form
+msgid "Exhibitor's Remarks"
+msgstr "Exposant Opmerkingen"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_res_brand__exhibitor_status
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_res_partner__exhibitor_status
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_res_users__exhibitor_status
+msgid "Exhibitor?"
+msgstr "Exposanten?"
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.event_event_view_form
+msgid "Exhibitors"
+msgstr "Exposanten"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_type__exhibitor_register_menu
+msgid "Exhibitors Register"
+msgstr "Geregistreerde Exposanten"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_event__exhibitor_register_menu_ids
+#: model:ir.model.fields.selection,name:website_event_exhibitors.selection__website_event_menu__menu_type__exhibitor_register
+msgid "Exhibitors Register Menus"
+msgstr "Exposant registratie menu’s"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_crm_lead__id
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_event__id
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_sponsor__id
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_stand_type__id
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_type__id
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_res_partner__id
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_sale_order__id
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_sale_order_line__id
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_website_event_menu__id
+msgid "ID"
+msgstr ""
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_sponsor__stand_construction
+msgid "Include Stand Construction"
+msgstr "Inclusief Standbouw"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_crm_lead____last_update
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_event____last_update
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_sponsor____last_update
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_stand_type____last_update
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_type____last_update
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_res_partner____last_update
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_sale_order____last_update
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_sale_order_line____last_update
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_website_event_menu____last_update
+msgid "Last Modified on"
+msgstr "Laatst gewijzigd op"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_stand_type__write_uid
+msgid "Last Updated by"
+msgstr "Laatst gewijzigd door"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_stand_type__write_date
+msgid "Last Updated on"
+msgstr "Laatst gewijzigd op"
+
+#. module: website_event_exhibitors
+#: code:addons/website_event_exhibitors/models/event_sponsor.py:0
+#: code:addons/website_event_exhibitors/models/event_sponsor.py:0
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_sponsor__lead_id
+#, python-format
+msgid "Lead"
+msgstr ""
+
+#. module: website_event_exhibitors
+#: model:ir.model,name:website_event_exhibitors.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "Lead/Verkoopkans"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_website_event_menu__menu_type
+msgid "Menu Type"
+msgstr "Soort menu"
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.registration_complete_form
+msgid "N/A"
+msgstr ""
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_sponsor__partner_id
+msgid "Partner"
+msgstr ""
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_sponsor__partner_company
+msgid "Partner Company"
+msgstr "Partner Bedrijf"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_sale_order_line__product_id
+msgid "Product"
+msgstr ""
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_event__attribute_value_id
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_sale_order__event_attr_value_id
+msgid "Product Attribute"
+msgstr "Product Kenmerken"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_sponsor__prod_remarks
+msgid "Products / Services"
+msgstr "Producten / Diensten"
+
+#. module: website_event_exhibitors
+#: code:addons/website_event_exhibitors/models/event_event.py:0
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_event__exhibitor_register_menu
+#, python-format
+msgid "Register as Exhibitor"
+msgstr "Registreer als Exposant"
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.registration_complete_form
+msgid "Registration request submitted!"
+msgstr "Registratieverzoek ingediend!"
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.event_sponsor_view_form
+msgid "Reject"
+msgstr "Afwijzen"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields.selection,name:website_event_exhibitors.selection__event_sponsor__state__reject
+msgid "Rejected"
+msgstr "Afgewezen"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_sponsor__remarks
+msgid "Remarks"
+msgstr "Opmerkingen"
+
+#. module: website_event_exhibitors
+#: model:ir.model,name:website_event_exhibitors.model_sale_order
+msgid "Sales Order"
+msgstr "Verkooporder"
+
+#. module: website_event_exhibitors
+#: model:ir.model,name:website_event_exhibitors.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Verkooporderregel"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_event__team_id
+msgid "Sales Team"
+msgstr "Verkoopteam"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_stand_type__sequence
+msgid "Sequence"
+msgstr ""
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.event_sponsor_view_kanban_inherit
+msgid "Sponsor image"
+msgstr ""
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_sponsor__stand_number
+msgid "Stand Number"
+msgstr "Standnummer"
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.event_sponsor_view_form
+msgid "Stand Requirements"
+msgstr "Stand Voorkeuren"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_sponsor__stand_type_id
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_stand_type__name
+msgid "Stand Type"
+msgstr "Standsoort"
+
+#. module: website_event_exhibitors
+#: model:ir.actions.act_window,name:website_event_exhibitors.event_stand_type_action
+#: model:ir.ui.menu,name:website_event_exhibitors.menu_event_stand_type
+msgid "Stand Types"
+msgstr "Stand soorten"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_sponsor__state
+msgid "Status"
+msgstr ""
+
+#. module: website_event_exhibitors
+#: model_terms:ir.ui.view,arch_db:website_event_exhibitors.exhibitor_registration_template
+msgid "Submit Request"
+msgstr "Verzoek Indienen"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_sponsor__stand_surface_area
+msgid "Surface Area (sq.m)"
+msgstr "Oppervlakte in m2"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,help:website_event_exhibitors.field_event_sponsor__stand_surface_area
+msgid "Surface Area for Stand in Sq mtrs"
+msgstr "Oppervlakte van de Stand in m2"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_sponsor__visitor_id
+msgid "Visitor"
+msgstr "Bezoeker"
+
+#. module: website_event_exhibitors
+#: model:ir.model,name:website_event_exhibitors.model_website_event_menu
+msgid "Website Event Menu"
+msgstr "Website evenementen menu"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,field_description:website_event_exhibitors.field_event_sponsor__stand_width
+msgid "Width (m)"
+msgstr "Breedte (m)"
+
+#. module: website_event_exhibitors
+#: model:ir.model.fields,help:website_event_exhibitors.field_event_sponsor__stand_width
+msgid "Width of Stand in mtrs"
+msgstr "Breedte van de Stand in meter"
+
+#. module: website_event_exhibitors
+#: model:ir.model,name:website_event_exhibitors.model_event_stand_type
+msgid "event.stand.type"
+msgstr ""
