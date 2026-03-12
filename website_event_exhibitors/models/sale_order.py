@@ -170,6 +170,9 @@ class SaleOrderLine(models.Model):
     def _compute_event_price_edit(self):
         EOT = self.env.ref('website_event_exhibitors.event_sale_type').id
         for line in self:
+            if line.order_id.type_id.id != EOT:
+                continue
+
             sub_dis_amt = line.price_subtotal_disc_amt
             subtotal = line.price_subtotal
             event_price_edit = False
@@ -207,7 +210,7 @@ class SaleOrderLine(models.Model):
                     'price_subtotal': sub_dis_amt
                 })
 
-    price_subtotal_disc_amt = fields.Monetary(string='Subtotal after discount')
+    price_subtotal_disc_amt = fields.Monetary(string='Subtotal after discount', copy=False)
     event_price_edit = fields.Boolean(compute='_compute_event_price_edit', string='Event Price Editable', store=True)
     actual_unit_price = fields.Float(compute='_compute_amount', string='Actual Unit Price', digits='Product Price',
                                      default=0.0, readonly=True, store=True)
